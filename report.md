@@ -10,9 +10,14 @@
 
 *В результате тестирования выявлены следующие дефекты:*
 
-Баг-репорт №1 (Ввод валидных значений в поле ввода номера карт) приложения Credit Card Number Validator
+[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы Diners Club - International](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
 
-Описание процесса тестирования
+[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы American Express (AMEX)](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
+
+[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы JSB](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
+
+## Описание процесса тестирования
+
 Тест №1 - Ввод 16-значного номерка карты "0000000000000000"
 
 **Ожидаемый результат** - "Result is FAIL"
@@ -80,7 +85,7 @@
 
 В качестве тестовых данных использовались номера карт из веб-сайта https://www.freeformatter.com/credit-card-number-generator-validator.html:
 
-**Тестирование производилось в следующем окружении:**
+## Тестирование производилось в следующем окружении:
 
 Windows 10 Home Edition x64
 
