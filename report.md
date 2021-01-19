@@ -91,6 +91,6 @@ Windows 10 Home Edition x64
 
 java version "11.0.9.1" 2020-11-04
 
-Google Crome Версия 87.0.4280.141 (Официальная сборка), (64 бит)
+Google Chrome Версия 87.0.4280.141 (Официальная сборка), (64 бит)
 
 IntelliJ IDEA 2020.2.3 (Community Edition)
