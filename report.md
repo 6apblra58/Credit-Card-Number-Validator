@@ -10,77 +10,50 @@
 
 *В результате тестирования выявлены следующие дефекты:*
 
-[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы Diners Club - International](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидного ключа платежной системы Diners Club - International](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
 
-[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы American Express (AMEX)](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидного ключа платежной системы American Express (AMEX)](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
 
-[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы JSB](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидного ключа платежной системы JSB](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
 
 ## Описание процесса тестирования
 
 Тест №1 - Ввод 16-значного номерка карты "0000000000000000"
 
-**Ожидаемый результат** - "Result is FAIL"
-
-**Фактический результат** - "Result is FAIL"
-
-
 
 Тест №2 - Ввод 14-значного валидного номера карты "36283208288670" платежной системы Diners Club - International
 
-**Ожидаемый результат** - ""Result is OK""
+Тест №3 - Ввод 14-значного валидного номера карты "30262931447692" платежной системы Diners Club - Carte Blanche
 
-**Фактический результат** - "Result is FAIL"
+[Ответ Credit Card Number Validator "FAIL" на ввод валидных 14-значных номеров карт](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
 
-[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы Diners Club - International](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
+Тест №4 Ввод 17-значного валидного номера карты "377967621265664" платежной системы American Express (AMEX)
 
-Тест №3 Ввод 17-значного валидного номера карты "36283208288670" платежной системы American Express (AMEX)
+Тест №5 Ввод 17-значного валидного номера карты "371954845156362" платежной системы American Express (AMEX)
 
-**Ожидаемый результат** - ""Result is OK""
+Тест №6 Ввод 17-значного валидного номера карты "377407362041297" платежной системы American Express (AMEX)
 
-**Фактический результат** - "Result is FAIL"
-
-[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы American Express (AMEX)](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидных 17-значных номеров карт ](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
 
 
-Тест №4 - Ввод 16-значного валидного номера карты "5188985381044119" платежной системы MasterCard
+Тест №7 - Ввод 16-значного валидного номера карты "5188985381044119" платежной системы MasterCard
 
-**Ожидаемый результат** - "Result is OK"
+Тест №8 - Ввод 16-значного номера карты "4485855163207296" платежной системы Visa
 
-**Фактический результат** - "Result is OK"
+Тест №9 - Ввод 16-значного номера карты "4024007164051327" платежной системы Visa
 
+Тест №10 - Ввод 19-значного номера карты "4929754379190944399" платежной системы Visa
 
-
-Тест №5 - Ввод 16-значного номера карты "4485855163207296" платежной системы Visa
-
-**Ожидаемый результат** - "Result is OK"
-
-**Фактический результат** - "Result is OK"
+Тест №11 - Ввод 19-значного номера карты "3536138310452150673" платежной системы JSB
 
 
-Тест №6 - Ввод 21-значного номера карты "3536138310452150673" платежной системы JSB
-
-**Ожидаемый результат** - ""Result is OK""
-
-**Фактический результат** - "Result is FAIL"
-
-[Ответ приложения(Credit Card Number Validator) "FAIL" на ввод валидного ключа платежной системы JSB](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидных 19-значных ключей](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
 
 
-Тест №7 - Оставляем поле пустым
-
-**Ожидаемый результат** - ""Result is FAIL""
-
-**Фактический результат** - "Result is FAIL"
+Тест №12 - Оставляем поле пустым
 
 
-
-Тест №8 - Ввод 16-значного номера карты "6759773749753705" платежной системы Maestro
-
-**Ожидаемый результат** - ""Result is OK""
-
-**Фактический результат** - "Result is OK"
-
+Тест №13 - Ввод 16-значного номера карты "6759773749753705" платежной системы Maestro
 
 
 В качестве тестовых данных использовались номера карт из веб-сайта https://www.freeformatter.com/credit-card-number-generator-validator.html:
