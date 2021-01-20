@@ -10,11 +10,11 @@
 
 *В результате тестирования выявлены следующие дефекты:*
 
-[Ответ Credit Card Number Validator "FAIL" на ввод валидного ключа платежной системы Diners Club - International](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидных 14-значных номеров карт](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
 
-[Ответ Credit Card Number Validator "FAIL" на ввод валидного ключа платежной системы American Express (AMEX)](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидных 15-значных номеров карт](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
 
-[Ответ Credit Card Number Validator "FAIL" на ввод валидного ключа платежной системы JSB](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидных 19-значных номеров карт](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
 
 ## Описание процесса тестирования
 
@@ -51,10 +51,6 @@
 
 
 Тест №12 - Оставляем поле пустым
-
-
-Тест №13 - Ввод 16-значного номера карты "6759773749753705" платежной системы Maestro
-
 
 В качестве тестовых данных использовались номера карт из веб-сайта https://www.freeformatter.com/credit-card-number-generator-validator.html:
 
