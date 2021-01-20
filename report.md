@@ -27,13 +27,13 @@
 
 [Ответ Credit Card Number Validator "FAIL" на ввод валидных 14-значных номеров карт](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
 
-Тест №4 Ввод 17-значного валидного номера карты "377967621265664" платежной системы American Express (AMEX)
+Тест №4 Ввод 15-значного валидного номера карты "377967621265664" платежной системы American Express (AMEX)
 
-Тест №5 Ввод 17-значного валидного номера карты "371954845156362" платежной системы American Express (AMEX)
+Тест №5 Ввод 15-значного валидного номера карты "371954845156362" платежной системы American Express (AMEX)
 
-Тест №6 Ввод 17-значного валидного номера карты "377407362041297" платежной системы American Express (AMEX)
+Тест №6 Ввод 15-значного валидного номера карты "377407362041297" платежной системы American Express (AMEX)
 
-[Ответ Credit Card Number Validator "FAIL" на ввод валидных 17-значных номеров карт ](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
+[Ответ Credit Card Number Validator "FAIL" на ввод валидных 15-значных номеров карт ](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
 
 
 Тест №7 - Ввод 16-значного валидного номера карты "5188985381044119" платежной системы MasterCard
