@@ -25,16 +25,11 @@
 
 Тест №3 - Ввод 14-значного валидного номера карты "30262931447692" платежной системы Diners Club - Carte Blanche
 
-[Ответ Credit Card Number Validator "FAIL" на ввод валидных 14-значных номеров карт](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/1#issue-787827658)
-
 Тест №4 Ввод 15-значного валидного номера карты "377967621265664" платежной системы American Express (AMEX)
 
 Тест №5 Ввод 15-значного валидного номера карты "371954845156362" платежной системы American Express (AMEX)
 
 Тест №6 Ввод 15-значного валидного номера карты "377407362041297" платежной системы American Express (AMEX)
-
-[Ответ Credit Card Number Validator "FAIL" на ввод валидных 15-значных номеров карт ](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/2#issue-788134029)
-
 
 Тест №7 - Ввод 16-значного валидного номера карты "5188985381044119" платежной системы MasterCard
 
@@ -45,10 +40,6 @@
 Тест №10 - Ввод 19-значного номера карты "4929754379190944399" платежной системы Visa
 
 Тест №11 - Ввод 19-значного номера карты "3536138310452150673" платежной системы JSB
-
-
-[Ответ Credit Card Number Validator "FAIL" на ввод валидных 19-значных ключей](https://github.com/6apblra58/Credit-Card-Number-Validator/issues/3#issue-788154331)
-
 
 Тест №12 - Оставляем поле пустым
 
